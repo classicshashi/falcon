@@ -38,7 +38,7 @@
       function normalizeModel() {
         //------------INTERFACE-----------//
         var requiredInterfaceFields = ["readonly", "write", "execute", "workflow", "messaging", "registry"],
-          requiredLocationFields = ["staging", "temp", "working", ""],
+          requiredLocationFields = ["staging", "working", ""],
           modelInterfaceArray = $scope.clusterEntity.clusterModel.cluster.interfaces.interface,
           modelLocationsArray = $scope.clusterEntity.clusterModel.cluster.locations.location;
 
